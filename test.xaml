@@ -1,0 +1,6 @@
+<Label Text="{Binding UserName}" />
+<Label>
+    <Label.Text>
+        <Binding Path="UserName" />
+    </Label.Text>
+</Label>
